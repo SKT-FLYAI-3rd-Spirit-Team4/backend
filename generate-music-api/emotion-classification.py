@@ -8,7 +8,7 @@ import time
 #텍스트 영어로 번역
 def translate_text(text):
     translator = googletrans.Translator()
-    en_taedam = translator.translate(taedam, dest='en', src='ko')
+    en_taedam = translator.translate(text, dest='en', src='ko')
     return(en_taedam.text)
 
 #top1 감정 키워드 반환
