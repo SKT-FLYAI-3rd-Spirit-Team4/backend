@@ -1,0 +1,7 @@
+piano
+base guitar
+electric guitar
+drum
+violin
+plute
+clarinet
